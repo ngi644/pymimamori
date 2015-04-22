@@ -22,8 +22,7 @@ from datadog import initialize
 from datadog import api as dd_api
 from datadog import statsd
 
-targets = {'00:1B:DC:44:15:75': u'papa',
-           '00': u'kosuke'}
+targets = {}
 
 use_dogstatsd = False
 statsd_host = 'localhost'
